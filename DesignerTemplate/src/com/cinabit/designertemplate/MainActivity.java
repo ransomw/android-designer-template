@@ -40,6 +40,12 @@ public class MainActivity extends Activity {
 				startActivity(new Intent(MainActivity.this, RowActivity.class));
 			}
 		});
+        dialogButton.setOnClickListener(new View.OnClickListener() { 
+			@Override
+			public void onClick(View v) {
+				(new DialogDialogFragment()).show(getFragmentManager(), null);			
+			}
+		});
     }
 
 }
