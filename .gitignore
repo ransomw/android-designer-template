@@ -1,7 +1,9 @@
+*~
+
 *.dex
 *.class
-project/.settings
-project/.classpath
-project/.project
-project/bin/
-project/gen/
+DesignerTemplate/.settings
+DesignerTemplate/.classpath
+DesignerTemplate/.project
+DesignerTemplate/bin/
+DesignerTemplate/gen/
