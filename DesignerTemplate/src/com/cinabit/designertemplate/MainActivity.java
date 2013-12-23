@@ -46,6 +46,12 @@ public class MainActivity extends Activity {
 				(new DialogDialogFragment()).show(getFragmentManager(), null);			
 			}
 		});
+        actionBarButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, ActionBarActivity.class));
+			}
+		});
     }
 
 }
