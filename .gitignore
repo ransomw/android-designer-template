@@ -1,0 +1,7 @@
+*.dex
+*.class
+project/.settings
+project/.classpath
+project/.project
+project/bin/
+project/gen/
