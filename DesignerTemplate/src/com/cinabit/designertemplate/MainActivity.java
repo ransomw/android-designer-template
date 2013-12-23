@@ -58,6 +58,12 @@ public class MainActivity extends Activity {
 				startActivity(new Intent(MainActivity.this, ActionBarActivity.class));
 			}
 		});
+        preferencesButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+			}
+		});
     }
 
 }
