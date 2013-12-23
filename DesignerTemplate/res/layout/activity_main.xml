@@ -17,7 +17,7 @@
             android:id="@+id/button_activity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="activity layout" />
+            android:text="activity" />
 
         <Button
             android:id="@+id/button_row"
