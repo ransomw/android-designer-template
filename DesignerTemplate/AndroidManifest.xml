@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="ActivityActivity"></activity>
+        <activity android:name="RowActivity"></activity>
     </application>
 
 </manifest>

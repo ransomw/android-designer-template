@@ -34,6 +34,12 @@ public class MainActivity extends Activity {
 				startActivity(new Intent(MainActivity.this, ActivityActivity.class));				
 			}
 		});
+        rowButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, RowActivity.class));
+			}
+		});
     }
 
 }
