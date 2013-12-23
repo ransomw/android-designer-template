@@ -46,6 +46,12 @@ public class MainActivity extends Activity {
 				(new DialogDialogFragment()).show(getFragmentManager(), null);			
 			}
 		});
+        fragmentButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, FragmentActivity.class));
+			}
+		});       
         actionBarButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

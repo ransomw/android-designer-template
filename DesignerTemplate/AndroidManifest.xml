@@ -25,6 +25,7 @@
         <activity android:name="ActivityActivity"></activity>
         <activity android:name="RowActivity"></activity>
         <activity android:name="ActionBarActivity"></activity>
+        <activity android:name="FragmentActivity"></activity>
     </application>
 
 </manifest>
